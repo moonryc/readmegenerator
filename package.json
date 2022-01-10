@@ -1,0 +1,14 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "A readme generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Moon",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
