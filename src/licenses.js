@@ -3,7 +3,8 @@ const year = new Date().getFullYear()
 
 const getLicenses = (license, fullName,title, description) => {
 
-let MITLicense = `MIT License
+let MITLicense = `
+MIT License
 
 Copyright (c) ${year} ${fullName}
 
