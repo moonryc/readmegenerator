@@ -3,16 +3,13 @@ const getLicenses = require("./licenses")
 
 const generateReadme = (userInput) => {
 
-    console.log(userInput)
-
     let features = ""
-
     for(let feat of userInput.features){
         features += `* ${feat}\n`
     }
 
     let readme = `# ${userInput.title}
- ${userInput.includeLicense ? `<img src="https://img.shields.io/badge/License-${userInput.license}-blue" alt={""}>`:""}
+ ${userInput.includeLicense ? `<img src="https://img.shields.io/badge/License-${userInput.license}-blue">`:""}
 
 ## Description 
 
@@ -23,7 +20,8 @@ ${userInput.description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-* [License](#license)
+${userInput.includeLicense ? 
+`* [License](#license)`:""}
 * [Features](#features)
 * [Contributing](#contributing)
 * [Tests](#tests)
@@ -68,7 +66,7 @@ ${userInput.tests}
 
 Find me on github here: [here](http://github.com/${userInput.questions})
 
-If you have any additional question feel free to email me at [${userInput.email}}(mailto:${userInput.email})
+If you have any additional question feel free to email me at [${userInput.email}](mailto:${userInput.email})
 `
 
     fs.writeFile('README.md',readme,(error)=>{

@@ -12,6 +12,32 @@ const inquirer = require('inquirer')
 
 let questions = [
     {
+        message: "What is your full name?",
+        type: "input",
+        name: "userName",
+        validate: (value) => {
+            if (value) {
+                return true
+            } else {
+                console.log("please answer the question!")
+                return false
+            }
+        }
+    },
+    {
+        message: "What is your Email address?",
+        type: "input",
+        name: "email",
+        validate: (value) => {
+            if (value) {
+                return true
+            } else {
+                console.log("please answer the question!")
+                return false
+            }
+        }
+    },
+    {
         message: "What is the title of your project",
         type: "input",
         name: "title",
@@ -25,7 +51,7 @@ let questions = [
         }
     },
     {
-        message: "Please describe your project",
+        message: "Please briefly describe your project",
         type: "input",
         name: "description",
         validate: (value) => {
@@ -38,7 +64,7 @@ let questions = [
         }
     },
     {
-        message: "Please describe installation",
+        message: "Please describe how to install this repo",
         type: "input",
         name: "installation",
         validate: (value) => {
@@ -95,7 +121,7 @@ let questions = [
         }
     },
     {
-        message: "How can I contribute to this project?",
+        message: "Please describe how other can contribute to this project?",
         type: "input",
         name: "howToContribute",
         validate: (value) => {
@@ -108,7 +134,7 @@ let questions = [
         }
     },
     {
-        message: "Please describe how tto set up and run tests?",
+        message: "Please describe how to set up and run tests",
         type: "input",
         name: "tests",
         validate: (value) => {

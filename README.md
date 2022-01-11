@@ -1,9 +1,9 @@
-# d
- <img src="https://img.shields.io/badge/License-MIT License-blue" alt={""}>
+# Readme Generator
+ <img src="https://img.shields.io/badge/License-MIT License-blue">
 
 ## Description 
 
-dy
+A node application that will generate a readme file
 
 ## Table of Contents
 
@@ -19,17 +19,17 @@ dy
 
 ## Installation
 
-y
+clone the repo and run npm install or yarn
 
 
 ## Usage 
 
-y
+To use this project run npm app.js and answer the questions you are prompted, upon finishing answering the questions a README.md file will be generated
 
 
 ## Credits
 
-y
+Trilogy Services, Inquirer npm package, Node
 
 ## License
 
@@ -59,21 +59,21 @@ SOFTWARE.
 
 ## Features
 
-* y
+* generate a README.md based on user input
 
 
 
 ## Contributing
 
-y
+You can contribute to this project by forking the repo and proposing new features in pull requests
 
 
 ## Tests
 
-y
+This repo has no current tests
 
 ## Questions
 
-Find me on github here: [here](http://github.com/y)
+Find me on github here: [here](http://github.com/moonryc)
 
-If you have any additional question feel free to email me at [undefined}(mailto:undefined)
+If you have any additional question feel free to email me at [rycmoon@gmail.com](mailto:rycmoon@gmail.com)
