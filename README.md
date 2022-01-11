@@ -24,7 +24,7 @@ clone the repo and run npm install or yarn
 
 ## Usage 
 
-To use this project run npm app.js and answer the questions you are prompted, upon finishing answering the questions a README.md file will be generated
+To use this project run node app.js and answer the questions you are prompted, upon finishing answering the questions a README.md file will be generated
 
 
 ## Credits
