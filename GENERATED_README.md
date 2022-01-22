@@ -24,9 +24,8 @@ clone this repo and run npm install or run yarn
 
 ## Usage
 
-To use this app, run "node app.js" in the command line and answer the questions given, upon completion a file named GENERATED_README.md will appear in the root directory
+To use this app, run "node app.js" in the command line and answer the questions given, upon completion a file named GENERATED_README.md will appear in the root directory 
 
-- Use this video [here](https://watch.screencastify.com/v/nL0JfPuHjDBKhEjhYrRQ) to see how to use this application
 
 ## Credits
 

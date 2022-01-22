@@ -69,7 +69,7 @@ Find me on github here: [here](http://github.com/${userInput.questions})
 If you have any additional question feel free to email me at [${userInput.email}](mailto:${userInput.email})
 `
 
-    fs.writeFile('README.md',readme,(error)=>{
+    fs.writeFile('GENERATED_README.md',readme,(error)=>{
         if(error){
             console.log(error)
         }else{
